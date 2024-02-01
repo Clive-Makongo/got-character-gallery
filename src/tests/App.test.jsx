@@ -1,8 +1,10 @@
-import { render, screen } from '@testing-library/react';
-import * as userEvent from '@testing-library/user-event';
+import { render } from '@testing-library/react';
 import App from '../App';
 
-it('should render the App', () => {
+describe('<App/> component', () => {
+
+  it('renders', () => {
     render(<App />);
+  });
 
 });
